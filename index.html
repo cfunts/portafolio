@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>César Fuentes</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>¡Hola! Soy César Fuentes, egresado en Ingeniería Electrónica y Economía, con un reciente curso completado en desarrollo frontend. Mi pasión por el desarrollo web y de videojuegos me ha llevado a explorar y crear proyectos innovadores que combinan mi formación técnica y mi creatividad. Explora mi portafolio para descubrir cómo mis habilidades en HTML, CSS, JavaScript y mi experiencia en ingeniería y economía se unen para desarrollar soluciones únicas y eficaces.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <!-- Añade más habilidades según sea necesario -->
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Educación</h2>
+        <ul>
+            <li>Curso de Cero a Experto en HTML5 - (Nombre de la Institución)</li>
+            <!-- Añade más elementos de educación según sea necesario -->
+        </ul>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <section class="projectsContainer">
+            <div>
+                <h3><a href="https://aluraflix-lyart.vercel.app/" target="_blank">Aluraflix</a></h3>
+                <img src="./img/canvas.png" alt="website de aluraflix"/>
+                <p>Proyecto de final de curso de REACT con Alura Latam - Oracle Next Education.</p>
+            </div>
+            <div>
+                <h3><a href="https://www.youtube.com/playlist?list=PLsv-ES2p1klPikgKMK9docZYAMbjea7jr" target="_blank">Curso HTML5</a></h3>
+                <img src="./img/miniatura-html5.png" alt="website de aluraflix"/>
+                <p>Curso: Domina HTML5 desde Cero hasta Experto: Tu Guía Completa.</p>
+            </div>
+            <div>
+                <h3><a href="https://www.youtube.com/playlist?list=PLsv-ES2p1klNFJ-fyxJKO372Xz-HQdpyg" target="_blank">Curso Lógica de programación con JavaScript</a></h3>
+                <img src="./img/miniatura-js.png" alt="website de aluraflix"/>
+                <p>Curso: Desarrolla tu lógica de programación con javascript.</p>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 César Fuentes. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
