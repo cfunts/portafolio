@@ -42,6 +42,13 @@ h2 {
     width: 200px;
 }
 
+/*Sección habilidades*/
+.habilidades ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 /*Sección de proyectos*/
 .projects{
     display: flex;
@@ -113,8 +120,24 @@ form button:hover {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    padding: 1rem 0;
+    justify-content: space-around;
+    padding: 20px;
     background-color: #333;
     color: white;
+    gap:auto;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    color: #f4f4f4;
+}
+
+.redesSociales i{
+    display: flex;
+    width: 48px;
+    color: rgb(241, 240, 238);
 }
